@@ -1,3 +1,5 @@
+/* General Styles */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +9,8 @@
 body {
     background-color: #d9dcd6;
 }
+
+/* HEADER */
 
 header {
     padding: 20px;
@@ -41,6 +45,8 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* TEXT STYLING */
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,6 +56,8 @@ p {
     font-size: 16px;
 }
 
+/* BANNER BACKGROUND */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +66,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* FLOAT PRESETS */
 
 .float-left {
     float: left;
@@ -69,11 +79,15 @@ p {
     margin-left: 25px;
 }
 
+/* MAIN */
+
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* SIDE SECTION CONTAINING BENEFITS */
 
 aside {
     margin-right: 20px;
@@ -102,6 +116,8 @@ aside {
     max-width: 150px;
 }
 
+/* SERVICE SECTIONS */
+
 .service {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,6 +135,8 @@ aside {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* FOOTER */
 
 footer {
     padding: 30px;
